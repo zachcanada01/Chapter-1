@@ -8,7 +8,7 @@ public class intDemo {
 		byte aByte = 12;
 		short aShort = 12;
 		long aLong = 122451737091237429L;
-		int anotherInt = anInt * 10000000;
+		double anotherInt = anInt * 10000000;
 		
 		System.out.println("The int is " + anInt);
 		System.out.println("The byte is " + aByte);
