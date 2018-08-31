@@ -20,7 +20,7 @@ public class ArithmeticDemo3 {
 		
 		sum = firstNumber + secondNumber;
 		difference = firstNumber - secondNumber;
-		average = (double) (sum/2); 
+		average = sum / 2.0; 
 		
 		System.out.println(firstNumber + " + " +
 		secondNumber +" is " + sum);
