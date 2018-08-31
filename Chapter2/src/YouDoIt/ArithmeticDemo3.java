@@ -1,6 +1,6 @@
 package YouDoIt;
 import java.util.Scanner;
-public class ArithmeticDemo {
+public class ArithmeticDemo3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,7 +11,7 @@ public class ArithmeticDemo {
 		int secondNumber;
 		int sum;
 		int difference;
-		int average;
+		double average;
 		
 		System.out.print("Please enter an integer >> ");
 		firstNumber = input.nextInt();
@@ -20,7 +20,7 @@ public class ArithmeticDemo {
 		
 		sum = firstNumber + secondNumber;
 		difference = firstNumber - secondNumber;
-		average = sum / 2; 
+		average = (double) (sum/2); 
 		
 		System.out.println(firstNumber + " + " +
 		secondNumber +" is " + sum);
