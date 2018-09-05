@@ -16,7 +16,7 @@ public class QuartsToGallonsInteractive {
 		
 		Scanner input = new Scanner(System.in);
 	
-		System.out.println("You will need " + gallons + quartsremaining + "quarts");
+		System.out.println("You will need " + gallons + quartsremaining + " quarts");
 		numberOfquarts = input.nextInt();
 		
 	
