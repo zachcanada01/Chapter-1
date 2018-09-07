@@ -17,7 +17,7 @@ public class NauticalMilesInteractive {
 		System.out.print("How many nautical miles?");
 		nauticalmiles = input.nextInt();
 		
-		System.out.println("This will equal" + miles * nauticalmiles + "miles");
+		System.out.println("This will equal " + miles * nauticalmiles + " miles.");
 
 	}
 
